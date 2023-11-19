@@ -1,0 +1,118 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, hsl(337, 78%, 57%), #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.header{
+    color: white;
+    font-size: 100px;
+    font-family: 'Poppins';
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               font-weight: bold;
+               text-transform: uppercase;
+               margin-top:  90px;
+}
+
+
+.navbar{
+    margin: auto;
+    padding: 35px 0;
+    float: right;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 20px;
+    font-family: 'poppins';
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    color: white;
+    font-size: 25px;
+}
+
+
+#traits{
+    list-style-type: none;
+    margin: 10px;
+    color: white;
+}
+#traits > li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+img{
+    position: relative;
+    left: 150px;
+    bottom: 71px;
+    width: 40%;
+    height: 160px;
+}
+#traits{
+    display: inline-block;
+    font-family: 'Poppins';
+    
+
+    
+}
+
+#components{
+    color: white;
+    background-color: rgb(91, 191, 173);
+    border: 1px solid rgb(91, 191, 173);
+    padding: 10px;
+    width: 140px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#use{
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-color: black;
+    color: white;
+}
